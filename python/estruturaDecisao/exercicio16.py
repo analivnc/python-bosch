@@ -5,3 +5,15 @@
 # Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
 #Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
 #Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário;
+
+valorA = int(input("Digite o valor a: "))
+valorB = int(input("Digite o valor b: "))
+valorC = int(input("Digite o valor c: "))
+
+delta = valorB ** 2 - (4 * valorA * valorC)
+
+if valorA == 0:
+    print("A equação não é de segundo grau")
+elif delta == 0:
+    print("A equação não possuí raizes reais")
+ 
